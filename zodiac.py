@@ -1,6 +1,3 @@
-from tomlkit import value
-
-
 class Zodiac:
     """Find zodiac sign in birthdays.
     """
