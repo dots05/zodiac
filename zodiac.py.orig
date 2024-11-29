@@ -6,4 +6,4 @@ class Zodiac:
         for str in zodiac.keys():
             if " " in str:
                 print(zodiac.get(str), end = " ")
-
+        
