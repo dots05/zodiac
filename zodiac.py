@@ -1,5 +1,7 @@
+import datetime
+
 class Zodiac:
-    """Find zodiac sign in birthdays.
+    """Find the zodiac sign that aligns with your birthday.
     """
     def __init__(key):
         failure_count = 0
