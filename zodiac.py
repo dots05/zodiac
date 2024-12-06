@@ -1,5 +1,4 @@
-import datetime
-from zodiac_calendar import zodiac_list
+from zodiac_calendar import zodiac_list, tuple
 
 class Zodiac:
     """Find the zodiac sign that aligns with your birthday.
