@@ -1,7 +1,7 @@
 import datetime
  
-aries_start = datetime.date(2000, 3, 21)
-aries_end = datetime.date(2000, 4, 19)
+aries_start = datetime.date(1999, 3, 21)
+aries_end = datetime.date(1999, 4, 19)
 list = []
 delta = datetime.timedelta(days=1)
  
