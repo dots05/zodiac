@@ -1,14 +1,15 @@
 import datetime
  
-aries_start = datetime.date(1999, 3, 21)
-aries_end = datetime.date(1999, 4, 19)
-list = []
-delta = datetime.timedelta(days=1)
- 
-# iterate over range of dates
-while (aries_start <= aries_end):
-    list.append(aries_start.strftime("%B %d"))
-    aries_start += delta
+start = datetime.date(1999, 3, 21)
+end = datetime.date(2000, 3, 20)
+date_list = []
+zodiac_list = ['Aries', 'Taurus', 'Gemini', 'Cancer', 'Leo', 'Virgo', 'Libra', 'Scorpio', 'Sagittarius', 'Capricorn', 'Aquarius', 'Pisces']
 
-tuple = tuple(list)
-zodiac_list = {tuple: 'Aries'}
+delta = datetime.timedelta(days=1)
+# iterate over range of dates
+while (start <= end):
+    date_list.append(start.strftime("%B %d"))
+    start += delta
+
+date_tuple = tuple(date_list)
+birthday_list = {date_tuple: zodiac_list}
