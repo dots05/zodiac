@@ -1,6 +1,5 @@
 # add imports
 import datetime
-
 #initialize variables
 start = datetime.date(1999, 3, 21)
 end = datetime.date(2000, 3, 20)
